@@ -12,5 +12,10 @@ static void mymod_exit(void)
 }
 
 module_init(mymod_init);
-moduel_exit(mymod_exit);
+module_exit(mymod_exit);
+
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Prashik");
+MODULE_DESCRIPTION("Simple Linux Kernel Module");
 
